@@ -1,0 +1,72 @@
+
+.clearfix::after { 
+    content: ''; 
+    display: block; 
+    clear: both;
+}
+.wrapper {
+    width: 400px; 
+    margin: 0 auto; 
+/* wrapperクラスを中央寄せ */
+}
+/** header **/
+.header { 
+    height: 100px; 
+    background-color: #141f40;
+}
+/** end of header **//** contents **/
+.contents { 
+    height: 250px;
+}
+/** left **/
+.left { 
+    float:left;
+    width: 150px;
+    height:250px;
+    background-color: #80bfa8;
+}
+/** end of left **/
+/** center **/
+.center { 
+    float:right;
+    width: 250px; 
+    height:250px;
+}
+.center-1 { 
+    float:left;
+    width:150px;
+    height: 50px;
+    background-color: #dbd400;
+}
+.center-2 { 
+    float:left;
+    width: 150px; 
+    height: 100px;
+    background-color: #0093b7;
+}
+.center-3 { 
+    float:left;
+    width: 250px; 
+    height: 100px;
+    background-color: #8c2727;
+}
+.right { 
+    float:right;
+    width: 100px; 
+    height: 150px;
+    background-color: #ff9e6b;
+}
+/** end of right **/
+/** end of contents **/
+/** footer **/
+.footer {
+    height: 100px;
+    background-color: #d98d30;
+}
+/** end of footer **/
+
+/* reset.css*/
+* {
+    margin: 0;
+    padding: 0;
+}
